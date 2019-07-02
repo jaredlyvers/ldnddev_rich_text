@@ -1,0 +1,32 @@
+uuid: f3059ebc-97d6-4e48-845f-a112fbbe6325
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+_core:
+  default_config_hash: CNElZ5HlQ-8TUJS5FFc8BqXIjafi5rhelH0C0tc0QEQ
+id: paragraph.field_ldnddev_rich_text_bg_image
+field_name: field_ldnddev_rich_text_bg_image
+entity_type: paragraph
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

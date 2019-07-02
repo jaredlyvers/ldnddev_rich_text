@@ -1,0 +1,23 @@
+uuid: c69da48c-8356-4db6-bf96-2ef15269cedd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_rich_text_copy
+    - paragraphs.paragraphs_type.ldnddev_rich_text
+  module:
+    - text
+_core:
+  default_config_hash: 4xvwTllkiB8G5MliD90syAAqgyPL1Qbg6cZUy1tq-tA
+id: paragraph.ldnddev_rich_text.field_ldnddev_rich_text_copy
+field_name: field_ldnddev_rich_text_copy
+entity_type: paragraph
+bundle: ldnddev_rich_text
+label: 'Rich Text Copy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

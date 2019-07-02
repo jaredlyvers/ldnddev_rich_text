@@ -1,0 +1,11 @@
+ldnddev_rich_text:
+  css:
+    component:
+      assets/css/ldnddev_rich_text.css:
+        minified: false
+  js:
+    assets/js/ldnddev_rich_text.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/drupal

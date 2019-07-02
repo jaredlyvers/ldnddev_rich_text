@@ -1,0 +1,25 @@
+{{ attach_library('ldnddev_rich_text/ldnddev_rich_text') }}
+{% 
+    set classes=[
+        'ldnddev-richText'
+    ]
+%}
+
+{% if content.field_ldnddev_rich_text_css.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_rich_text_css.0|render|clean_class]) %}
+{% endif %}
+{% if content.field_ldnddev_rich_text_overlay.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_rich_text_overlay.0|render]) %}
+{% endif %}
+{% if content.field_ldnddev_rich_text_bg_image.0 %}
+    {% set img_url = file_url(content.field_ldnddev_rich_text_bg_image['#items'].entity.uri.value) %}
+{% endif %}
+
+<div {{ attributes.addClass(classes) }} style="background-image: url({{ img_url }});">
+    <div class="ldnddev-richText__copy">
+        {{ content.field_ldnddev_rich_text_copy }}
+    </div>
+    {% if content.field_ldnddev_rich_text_overlay.0  %}
+        <div class="ldnddev-richText__overlay"></div>
+    {% endif %}
+</div>

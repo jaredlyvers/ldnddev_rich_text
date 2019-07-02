@@ -1,0 +1,21 @@
+uuid: 751fd6fc-f1c0-42c7-8f02-4d369e7ad905
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_rich_text_overlay
+    - paragraphs.paragraphs_type.ldnddev_rich_text
+  module:
+    - options
+id: paragraph.ldnddev_rich_text.field_ldnddev_rich_text_overlay
+field_name: field_ldnddev_rich_text_overlay
+entity_type: paragraph
+bundle: ldnddev_rich_text
+label: 'Rich Text Overlay'
+description: 'Use this option to select an overlay and it''s shade strength.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 4dbcf872-f8bf-42b0-b9dc-e94f95df14a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: GzMmLKp58P_etQ-IXLra6OK-h29QKW9WanegjhXvXBw
+id: paragraph.field_ldnddev_rich_text_copy
+field_name: field_ldnddev_rich_text_copy
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

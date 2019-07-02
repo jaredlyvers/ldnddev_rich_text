@@ -1,0 +1,21 @@
+uuid: 651ff1bc-cd0c-462f-9085-3c6bfcada565
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_rich_text_css
+    - paragraphs.paragraphs_type.ldnddev_rich_text
+_core:
+  default_config_hash: QhVcEsCYh539JKIZl9AxQygEJ0LTpjNIQ2hSGJvjLhg
+id: paragraph.ldnddev_rich_text.field_ldnddev_rich_text_css
+field_name: field_ldnddev_rich_text_css
+entity_type: paragraph
+bundle: ldnddev_rich_text
+label: 'Custom CSS Class'
+description: 'Add your own custom CSS class.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

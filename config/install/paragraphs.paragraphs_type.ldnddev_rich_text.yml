@@ -1,0 +1,11 @@
+uuid: bb49d3d8-c126-4bb7-8d3e-ccb21254b63e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WGbcsS4UZb6Umlm6vJeaIypT1xvlty-6OA0zFwWNN1E
+id: ldnddev_rich_text
+label: 'ldnddev Rich Text'
+icon_uuid: null
+description: 'This bundle is used to add a Rich Text field to the page.'
+behavior_plugins: {  }
